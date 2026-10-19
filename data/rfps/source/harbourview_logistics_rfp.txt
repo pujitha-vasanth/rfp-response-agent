@@ -1,0 +1,68 @@
+TITLE: Request for Proposal: AI Customer Service Platform
+SUBTITLE: Harbourview Logistics Ltd | Reference HL-RFP-2026-031 | Issued 12 October 2026
+
+# 1. Introduction
+Harbourview Logistics Ltd invites suppliers to submit proposals for an AI customer service platform. This document describes our business, the scope of the work and the requirements a proposal will be assessed against.
+
+# 2. About Harbourview Logistics
+Harbourview is a UK freight and parcel delivery company with 14 depots across the UK and one depot in Rotterdam, Netherlands. We deliver around 180,000 parcels a day for retail and business customers.
+
+Our customer service team of 85 agents handles about 9,000 contacts a day. Around 60% of these are "where is my order" questions that could be answered automatically from our Transport Management System (TMS). Contact volumes roughly double between mid-November and the end of December.
+
+Today customers contact us by phone and email only. Wait times at peak exceed 25 minutes and customer satisfaction has dropped from 81% to 68% over two years.
+
+# 3. Scope of work
+We are looking for a supplier to provide, implement and support a platform that lets customers get answers and complete simple tasks through digital channels, and that helps our agents handle the contacts that still need a person. The contract will run for an initial term of 3 years with an option to extend by 2 years.
+
+# 4. Requirements
+Requirements marked "must" are mandatory. Requirements marked "should" are desirable and will earn additional marks.
+
+## 4.1 Hosting, security and data protection
+Our customers' personal data is protected by UK GDPR. All customer data must be stored and processed in UK data centres. Customer data must not be used to train AI models, whether the supplier's or a third party's.
+
+The supplier must hold a current ISO 27001 certification.
+
+The platform must support single sign-on for our staff through Microsoft Entra ID.
+
+The service must be available at least 99.95% of the time each month, backed by a contractual SLA.
+
+In the event of a major outage, the supplier must meet a recovery point objective of no more than 1 hour and a recovery time objective of no more than 4 hours.
+
+Some business customers settle invoices by card. The platform must be PCI DSS certified so that customers can pay outstanding invoices inside the chat.
+
+## 4.2 Customer channels and AI capability
+- The solution must support web chat, WhatsApp and email as customer channels.
+- The solution must handle inbound telephone calls through an AI voice agent, so that callers get the same answers as digital customers.
+- The AI assistant must answer "where is my order" questions by checking live shipment status in our TMS through its API.
+- The AI assistant must converse with customers in both English and Polish.
+- The web chat must conform to WCAG 2.2 level AA.
+- The platform must handle at least 2,000 concurrent conversations during our peak season.
+- The solution should offer in-app chat inside our iOS and Android customer apps.
+
+## 4.3 Integration
+The platform must integrate with Salesforce Service Cloud so that conversations the AI cannot resolve create a case for an agent.
+
+The solution should integrate with our SAP S/4HANA system so that customers can ask about invoices and billing.
+
+## 4.4 Reporting
+The platform should report on containment rate and customer satisfaction and make this data available in Power BI.
+
+## 4.5 Service and support
+The supplier must provide telephone support 24 hours a day, 7 days a week, for all severity levels.
+
+## 4.6 Delivery and training
+The platform must be live within 16 weeks of contract signature.
+
+The supplier should provide onsite training for the 40 agents at our Rotterdam depot.
+
+## 4.7 Commercial and contractual
+- The supplier must hold professional indemnity insurance of at least 5 million GBP.
+- On exit, the supplier must return all of our data in a machine-readable format.
+- Subscription prices should be fixed for the initial 3-year term.
+- The supplier should hold ISO 14001 environmental certification.
+
+# 5. Evaluation
+Proposals will be scored 60% on quality and 40% on price. Quality will be assessed on the requirements in section 4, the proposed delivery plan and the strength of references.
+
+# 6. Submission instructions
+Proposals are due by 17:00 UK time on 14 November 2026 and should be uploaded to the Harbourview supplier portal. Questions about this RFP can be sent to procurement@harbourview.example until 31 October 2026; answers will be shared with all bidders. Bidders should not contact Harbourview staff directly about this RFP. Harbourview is not obliged to accept the lowest priced or any proposal.

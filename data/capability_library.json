@@ -1,0 +1,240 @@
+[
+  {
+    "id": "CAP-01",
+    "category": "Hosting",
+    "title": "Cloud hosting on Microsoft Azure",
+    "statement": "Brightpath Assist is a SaaS platform hosted on Microsoft Azure. Customers choose their hosting region at contract signature from UK South, West Europe, Central India or East US. A single-tenant deployment is available on the Enterprise tier.",
+    "limits": "We do not offer on-premises deployment or hosting on customer-owned servers. We do not host on AWS or Google Cloud."
+  },
+  {
+    "id": "CAP-02",
+    "category": "Hosting",
+    "title": "Data residency",
+    "statement": "All customer data, including conversation transcripts, knowledge content, backups and logs, is stored and processed only in the Azure region the customer selects. AI models run on Azure OpenAI in the same geography, so data is not transferred outside it. Customers who select UK South keep all data in United Kingdom (UK) data centres.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-03",
+    "category": "Service levels",
+    "title": "Availability SLA",
+    "statement": "We provide a contractual availability SLA of 99.9% per calendar month for the production platform, with service credits of 5% to 25% of the monthly fee if the SLA is missed. Planned maintenance is announced 7 days ahead and is scheduled outside 07:00 to 22:00 UK time.",
+    "limits": "We do not currently offer a contractual availability SLA higher than 99.9%."
+  },
+  {
+    "id": "CAP-04",
+    "category": "Service levels",
+    "title": "Disaster recovery and backup",
+    "statement": "Recovery Point Objective (RPO) of 1 hour and Recovery Time Objective (RTO) of 4 hours. Backups are geo-redundant within the selected geography, taken daily and retained for 35 days. The disaster recovery plan is tested every year and a summary of the test is shared with customers.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-05",
+    "category": "Security",
+    "title": "Security certifications",
+    "statement": "Brightpath Digital is certified to ISO/IEC 27001:2022, holds Cyber Essentials Plus (UK) certification and publishes an annual SOC 2 Type II report. Certificates are available on request.",
+    "limits": "We are not PCI DSS certified and the platform must not be used to capture payment card details. We do not hold FedRAMP authorisation."
+  },
+  {
+    "id": "CAP-06",
+    "category": "Security",
+    "title": "Encryption and key management",
+    "statement": "Data is encrypted at rest with AES-256 and in transit with TLS 1.2 or higher. Customer-managed encryption keys (bring your own key) through Azure Key Vault are available on all tiers.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-07",
+    "category": "Security",
+    "title": "Single sign-on and user provisioning",
+    "statement": "The platform supports single sign-on (SSO) through SAML 2.0 and OpenID Connect, with tested integrations for Microsoft Entra ID (Azure AD) and Okta. Users can be provisioned and removed automatically through SCIM 2.0. Multi-factor authentication is enforced through the customer's identity provider.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-08",
+    "category": "Security",
+    "title": "Role-based access and audit logging",
+    "statement": "Role-based access control with predefined roles (administrator, supervisor, agent, analyst) and custom roles. All administrative actions are written to an audit log that is retained for 1 year and can be exported.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-09",
+    "category": "Security",
+    "title": "Penetration testing",
+    "statement": "An independent CREST-accredited firm penetration tests the platform every year. An executive summary of the findings and remediation status is shared with customers under NDA. Customers may run their own penetration test with 10 working days notice.",
+    "limits": "The full penetration test report is not shared outside Brightpath Digital; customers receive the executive summary only."
+  },
+  {
+    "id": "CAP-10",
+    "category": "Data protection",
+    "title": "GDPR and privacy",
+    "statement": "Brightpath Digital complies with UK GDPR and EU GDPR and acts as data processor. We sign the customer's Data Processing Agreement (DPA) or provide our own, and publish our sub-processor list. Transcript retention is configurable from 30 days to 7 years. Personal data such as phone numbers and email addresses can be automatically redacted from transcripts. Data subject access requests are supported through built-in export and deletion tools.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-11",
+    "category": "Channels",
+    "title": "Digital channels",
+    "statement": "Supported channels: website chat widget, WhatsApp Business, email, SMS (through Twilio), Microsoft Teams and Facebook Messenger. All channels share one conversation history per customer.",
+    "limits": "There is no native voice or telephony channel. Inbound voice can be added through our Genesys Cloud connector, which requires a Genesys Cloud licence and is priced as an add-on."
+  },
+  {
+    "id": "CAP-12",
+    "category": "Languages",
+    "title": "Language support",
+    "statement": "The AI assistant understands and replies in more than 30 languages and detects the customer's language automatically. Supported languages include English, Welsh, Polish, Dutch, French, German, Spanish, Arabic, Hindi, Urdu and Mandarin.",
+    "limits": "The administration and supervisor interface is available in English only."
+  },
+  {
+    "id": "CAP-13",
+    "category": "AI features",
+    "title": "Generative AI virtual agent",
+    "statement": "The virtual agent answers questions using generative AI grounded only on the customer's approved knowledge content (retrieval augmented generation on Azure AI Search). Every answer shows links to the source documents it used. When the assistant cannot answer, or the customer asks for a person, the conversation is handed to a human agent together with the full transcript and an AI-written summary.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-14",
+    "category": "AI features",
+    "title": "Agent assist",
+    "statement": "Human agents get AI suggested replies, automatic conversation summaries, sentiment indicators and one-click knowledge article search inside the agent workspace.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-15",
+    "category": "Knowledge",
+    "title": "Knowledge sources",
+    "statement": "Knowledge can be loaded from SharePoint Online, Confluence, public website pages (crawled on a schedule), and uploaded PDF, Word and PowerPoint files. Content is synchronised nightly or on demand.",
+    "limits": "There is no connector for ServiceNow knowledge bases."
+  },
+  {
+    "id": "CAP-16",
+    "category": "Integration",
+    "title": "CRM and helpdesk integrations",
+    "statement": "Prebuilt connectors for Salesforce Service Cloud, Microsoft Dynamics 365 Customer Service and Zendesk. The connectors create and update cases, attach transcripts and look up customer records.",
+    "limits": "There is no prebuilt connector for SAP. SAP S/4HANA integration is delivered as custom development using SAP APIs, typically 10 to 15 days of effort charged separately."
+  },
+  {
+    "id": "CAP-17",
+    "category": "Integration",
+    "title": "APIs and webhooks",
+    "statement": "A documented REST API (OpenAPI 3 specification) and webhooks cover conversations, users, knowledge and reporting data. The default rate limit is 100 requests per second.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-18",
+    "category": "Reporting",
+    "title": "Reporting and analytics",
+    "statement": "Real-time dashboards show conversation volumes, containment rate, customer satisfaction (CSAT), average handling time, top question topics and unanswered questions. A Power BI connector and CSV export are included.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-19",
+    "category": "Accessibility",
+    "title": "Accessibility",
+    "statement": "The customer-facing chat widget conforms to WCAG 2.2 level AA and is audited every year by an independent accessibility specialist. An accessibility conformance report (VPAT) is available.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-20",
+    "category": "Scalability",
+    "title": "Scalability and performance",
+    "statement": "The platform scales automatically and has been load tested to 5,000 concurrent conversations per customer with a median AI response time under 3 seconds.",
+    "limits": "Volumes above 5,000 concurrent conversations have not been tested and would need a capacity planning exercise."
+  },
+  {
+    "id": "CAP-21",
+    "category": "Support",
+    "title": "Customer support",
+    "statement": "Severity 1 incidents are supported 24 hours a day, 7 days a week by phone and through the support portal, with a 30 minute response target. Severity 2 to 4 issues are handled Monday to Friday, 08:00 to 18:00 UK time, with response targets of 2 hours (Severity 2) and 8 business hours (Severity 3 and 4). Support is provided in English. Enterprise customers get a named Customer Success Manager.",
+    "limits": "24/7 support is provided for Severity 1 incidents only."
+  },
+  {
+    "id": "CAP-22",
+    "category": "Delivery",
+    "title": "Implementation approach and timeline",
+    "statement": "Delivery follows an agile approach in 2-week sprints across five phases: discover, design, build, test and launch. A typical implementation goes live 10 to 14 weeks after contract signature. Implementation is offered as fixed price or time and materials.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-23",
+    "category": "Delivery",
+    "title": "Delivery team",
+    "statement": "Each implementation has a dedicated team: project manager, solution architect, AI engineer, integration developer and test lead, based in the UK and India.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-24",
+    "category": "Delivery",
+    "title": "Training",
+    "statement": "Training includes a 2-day administrator course, train-the-trainer sessions for agents and supervisors, and an e-learning library. Training is delivered remotely or onsite at customer locations in the UK and India at no extra cost.",
+    "limits": "Onsite training outside the UK and India is available but travel and accommodation costs are charged at cost."
+  },
+  {
+    "id": "CAP-25",
+    "category": "Delivery",
+    "title": "Testing and quality assurance",
+    "statement": "Before go-live we run automated regression tests of AI answers against an agreed evaluation set, measure answer accuracy and hallucination rate, and support the customer's user acceptance testing (UAT).",
+    "limits": ""
+  },
+  {
+    "id": "CAP-26",
+    "category": "AI governance",
+    "title": "Responsible AI and model use",
+    "statement": "Customer data, prompts and transcripts are never used to train or improve AI models, ours or Microsoft's. The platform applies content filtering, prompt injection protection and configurable topic guardrails. Low-confidence answers can be routed to a human for review before they are sent. Brightpath Digital publishes a Responsible AI policy.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-27",
+    "category": "Commercial",
+    "title": "Pricing model",
+    "statement": "Annual subscription priced by bundles of conversations, plus a one-time implementation fee. The subscription price is fixed for the initial 3-year term.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-28",
+    "category": "Experience",
+    "title": "Customer references",
+    "statement": "References available: a UK fashion retailer (62% of chats resolved by AI without a human), a European logistics company (40% fewer 'where is my order' calls), and a UK university (24/7 student help service for 18,000 students across English and Welsh).",
+    "limits": ""
+  },
+  {
+    "id": "CAP-29",
+    "category": "Commercial",
+    "title": "Insurance",
+    "statement": "Brightpath Digital holds professional indemnity insurance of 5 million GBP, cyber liability insurance of 5 million GBP and public liability insurance of 10 million GBP.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-30",
+    "category": "Commercial",
+    "title": "Exit and data return",
+    "statement": "On termination, all customer data is returned in machine-readable formats (CSV and JSON) within 30 days, after which it is securely deleted and a deletion certificate is issued.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-31",
+    "category": "Sustainability",
+    "title": "Environmental sustainability",
+    "statement": "Our operations are carbon neutral and we report Scope 1 and 2 emissions every year. The Azure regions we use run on contracts for renewable energy.",
+    "limits": "We do not hold ISO 14001 certification."
+  },
+  {
+    "id": "CAP-32",
+    "category": "AI features",
+    "title": "Transactional actions through customer APIs",
+    "statement": "The virtual agent can call the customer's own systems through secure API connectors to complete tasks inside the conversation, for example checking live order or shipment status, booking a collection or updating a delivery address.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-33",
+    "category": "Channels",
+    "title": "Mobile SDK",
+    "statement": "iOS and Android SDKs let customers embed the chat experience inside their own mobile apps, with push notifications.",
+    "limits": ""
+  },
+  {
+    "id": "CAP-34",
+    "category": "Integration",
+    "title": "Learning platform integration",
+    "statement": "For education customers the assistant can be embedded in Moodle and Canvas through LTI 1.3, so students use it inside their course pages with single sign-on.",
+    "limits": "Blackboard Learn is not supported."
+  }
+]

@@ -1,0 +1,59 @@
+TITLE: Invitation to Tender: AI Student and Staff Help Assistant
+SUBTITLE: Aldermoor University | Tender reference AU-ITT-0457 | October 2026
+
+# 1. Purpose of this tender
+Aldermoor University is seeking a supplier to provide an AI help assistant that answers questions from students and staff about university services, policies and processes, at any time of day.
+
+# 2. Background
+Aldermoor is a public university in Cardiff, Wales, with 21,000 students and 3,200 staff. Our Student Services team receives over 120,000 enquiries a year, peaking sharply during enrolment week in September and during exam periods. Many questions repeat (fees, accommodation, timetables, extenuating circumstances, IT access) and the answers already exist in our policies and on our website.
+
+As a Welsh university we have a legal duty under the Welsh Language Standards to provide services in Welsh.
+
+# 3. Scope
+The assistant will be used by prospective students on our public website, by current students inside our virtual learning environment, and by staff inside Microsoft Teams.
+
+# 4. Requirements
+Bidders must state against each requirement whether it is fully met, partially met or not met. Mandatory requirements are shown as MUST. Desirable requirements are shown as SHOULD.
+
+## 4.1 Information security and data protection
+- MUST: All data must be hosted in the United Kingdom.
+- MUST: The supplier must hold Cyber Essentials Plus certification.
+- MUST: The supplier must comply with UK GDPR and sign the University's Data Processing Agreement.
+- MUST: Conversation transcripts must be retained for no longer than 90 days, and the retention period must be configurable by the University.
+- MUST: The University must be able to manage its own encryption keys.
+- SHOULD: The supplier should provide the full report of its most recent independent penetration test to the University.
+- SHOULD: The solution should be able to run on the University's own on-premises servers if required.
+
+## 4.2 Access and identity
+Students and staff must sign in through single sign-on using our Microsoft Entra ID tenant, and user accounts must be provisioned and removed automatically through SCIM.
+
+## 4.3 Functional requirements
+- MUST: The assistant must answer questions using the University's policies, which are held in SharePoint, and the content of our public website.
+- MUST: Every answer must include links to the source documents used.
+- MUST: When the assistant cannot answer, it must hand the conversation to a human adviser together with the conversation history.
+- MUST: The assistant must provide its full service to students in both English and Welsh.
+- SHOULD: The administration interface used by Student Services staff should also be available in Welsh.
+- MUST: Staff must be able to use the assistant inside Microsoft Teams.
+- MUST: The student-facing interface must meet WCAG 2.2 AA.
+- SHOULD: The assistant should be embedded in our Moodle virtual learning environment.
+- SHOULD: The assistant should also integrate with Blackboard Learn, which is used by our partner colleges.
+- SHOULD: Student Services should see analytics on the most common question topics and on questions the assistant could not answer.
+
+## 4.4 Capacity and availability
+- MUST: The service must be available at least 99.5% of the time each month.
+- MUST: The service must support at least 10,000 concurrent conversations during enrolment week.
+
+## 4.5 Implementation and training
+- SHOULD: The supplier should deliver face-to-face training for 25 Student Services staff at our Cardiff campus.
+
+## 4.6 Supplier experience
+- MUST: The supplier must provide at least one reference from a higher education customer.
+
+## 4.7 Exit
+- MUST: At the end of the contract the supplier must delete all University data and provide a certificate of deletion.
+
+# 5. Award criteria
+Tenders will be evaluated on quality (70%) and price (30%). Any tender that does not meet a mandatory requirement may be excluded.
+
+# 6. Tender timetable and instructions
+Clarification questions must be submitted through the procurement portal by 3 November 2026. Tenders must be returned through the portal by 12:00 on 20 November 2026. Late tenders will not be considered. Shortlisted bidders will be invited to present in the week of 7 December 2026.
