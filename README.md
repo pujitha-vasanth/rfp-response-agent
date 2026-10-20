@@ -1,5 +1,7 @@
 # RFP Response Agent
 
+![tests](https://github.com/pujitha-vasanth/rfp-response-agent/actions/workflows/tests.yml/badge.svg)
+
 A multi-agent system that turns a Request for Proposal (RFP) into a compliance matrix and a reviewed first-draft response.
 
 Presales teams spend days on every RFP: reading it line by line, checking each requirement against what the company can actually deliver, and writing answers that do not overpromise. This project automates the first pass and leaves the judgement calls to people.
@@ -62,7 +64,7 @@ source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env                 # then edit .env
 
-pytest                               # check everything works
+pytest                               # check everything works (no key needed; also runs on every push)
 python run.py data/rfps/harbourview_logistics_rfp.pdf
 streamlit run app.py
 python evaluate.py
